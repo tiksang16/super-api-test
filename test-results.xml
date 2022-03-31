@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.4020" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-03-31T14:25:04" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="User Posts" timestamp="2022-03-31T14:25:04" tests="2" file="C:\Users\User\Desktop\super-api-tests\test\posts.js" time="0.0000" failures="0">
+    <testcase name="User Posts /posts" time="0.4640" classname="/posts">
+    </testcase>
+    <testcase name="User Posts GET /posts/:id" time="0.4340" classname="GET /posts/:id">
+    </testcase>
+  </testsuite>
+  <testsuite name="Negative Tests" timestamp="2022-03-31T14:25:05" tests="2" file="C:\Users\User\Desktop\super-api-tests\test\posts.js" time="0.9500" failures="0">
+    <testcase name="User Posts Negative Tests 401 Authentication Failed" time="0.4670" classname="401 Authentication Failed">
+    </testcase>
+    <testcase name="User Posts Negative Tests 422 Validation Failed" time="0.4820" classname="422 Validation Failed">
+    </testcase>
+  </testsuite>
+</testsuites>
